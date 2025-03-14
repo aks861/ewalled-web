@@ -1,0 +1,171 @@
+/* * {
+  border: red 1px solid;
+} */
+/* 
+:root {
+  --blueColor: #0061ff;
+  --bgColor: #fafbfd;
+  --navColor: #ffffff;
+} */
+
+/* mobile screen */
+@media only screen and (max-width: 600px) {
+}
+
+/* large screen */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fafbfd;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #0061ff;
+  font-weight: bold;
+}
+
+.nav {
+  background-color: white;
+  height: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vertical-line {
+  border-left: #b3b3b3 1px solid;
+  height: 40px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 20px;
+}
+
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.greetings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greetings-text {
+  flex: 3;
+}
+
+.greetings h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.greetings p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.profile {
+  display: flex;
+  flex: 1;
+}
+
+.profile-name {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile img {
+  border-radius: 50%;
+  border: #0061ff 7px solid;
+  object-fit: cover;
+}
+.profile h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.profile p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.account-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.account-no-card {
+  background-color: #0061ff;
+  height: 216px;
+  width: 273px;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-no-card h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.account-no-card h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.balance-card {
+  flex: 3;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 216px;
+  width: 913px;
+}
+
+.balance-card h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.balance-card h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.balance-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.balance-button {
+  background-color: #0061ff;
+  border-radius: 10px;
+  padding: 10px;
+}
