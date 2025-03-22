@@ -1,0 +1,79 @@
+.table-container {
+  margin-top: 3%;
+  border-radius: 12px;
+}
+
+.table-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+  color: #737373;
+}
+
+.table-controls input,
+.table-controls select {
+  padding: 2px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #737373;
+}
+
+.select-controls-transactions {
+  display: flex;
+  gap: 12px;
+}
+
+.sort-controls {
+  display: flex;
+  gap: 12px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #f6f6f6;
+}
+
+.transaction-table th {
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 2%;
+}
+
+.even {
+  background-color: #f6f6f6;
+}
+
+.odd {
+  background-color: #ffffff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: left;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.pagination button {
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 12px 22px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.pagination button:hover {
+  color: #ffffff;
+  background-color: #0061ff;
+  font-weight: bold;
+}

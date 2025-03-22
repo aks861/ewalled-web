@@ -1,0 +1,29 @@
+.nav {
+  background-color: white;
+  height: 100px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #0061ff;
+  font-weight: bold;
+}
+
+.vertical-line {
+  border-left: 1px solid #b3b3b3;
+  height: 40px;
+}
