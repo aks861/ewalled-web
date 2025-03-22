@@ -48,20 +48,24 @@ function TransactionTable() {
     <div className="table-container">
       <div className="table-controls">
         <input type="text" placeholder="Search" />
-        Show
-        <select>
-          <option>Last 10 transactions</option>
-          <option>Last 15 transactions</option>
-        </select>
-        Sort by
-        <select>
-          <option>Date</option>
-          <option>Amount</option>
-        </select>
-        <select>
-          <option>Descending</option>
-          <option>Ascending</option>
-        </select>
+        <div className="select-controls-transactions">
+          <p>Show</p>
+          <select>
+            <option>Last 10 transactions</option>
+            <option>Last 15 transactions</option>
+          </select>
+        </div>
+        <div className="sort-controls">
+          <p>Sort By</p>
+          <select>
+            <option>Date</option>
+            <option>Amount</option>
+          </select>
+          <select>
+            <option>Descending</option>
+            <option>Ascending</option>
+          </select>
+        </div>
       </div>
       <table className="transaction-table">
         <thead>
@@ -88,6 +92,23 @@ function TransactionTable() {
           ))}
         </tbody>
       </table>
+      <div className="pagination">
+        <button
+          type="button"
+          style={{ borderTopLeftRadius: "6px", borderEndStartRadius: "6px" }}
+        >
+          First
+        </button>
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3</button>
+        <button
+          type="button"
+          style={{ borderTopRightRadius: "6px", borderEndEndRadius: "6px" }}
+        >
+          Next
+        </button>
+      </div>
     </div>
   );
 }
