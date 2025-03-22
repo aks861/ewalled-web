@@ -1,0 +1,31 @@
+.table-container {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #f6f6f6;
+}
+
+.transaction-table th {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.even {
+  background-color: #f6f6f6;
+}
+
+.odd {
+  background-color: #ffffff;
+}

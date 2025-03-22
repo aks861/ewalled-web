@@ -1,8 +1,13 @@
+import Nav from "../components/Nav";
+
 function TopUpPage() {
   return (
-    <div>
-      <h1>Top Up Page</h1>
-    </div>
+    <>
+      <Nav />
+      <div>
+        <h1>Top Up Page</h1>
+      </div>
+    </>
   );
 }
 

@@ -1,8 +1,13 @@
+import Nav from "../components/Nav";
+
 function TransferPage() {
   return (
-    <div>
-      <h1>Transfer Page</h1>
-    </div>
+    <>
+      <Nav />
+      <div>
+        <h1>Transfer Page</h1>
+      </div>
+    </>
   );
 }
 
