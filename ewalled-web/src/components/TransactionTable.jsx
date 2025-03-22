@@ -46,6 +46,23 @@ function TransactionTable() {
 
   return (
     <div className="table-container">
+      <div className="table-controls">
+        <input type="text" placeholder="Search" />
+        Show
+        <select>
+          <option>Last 10 transactions</option>
+          <option>Last 15 transactions</option>
+        </select>
+        Sort by
+        <select>
+          <option>Date</option>
+          <option>Amount</option>
+        </select>
+        <select>
+          <option>Descending</option>
+          <option>Ascending</option>
+        </select>
+      </div>
       <table className="transaction-table">
         <thead>
           <tr>
