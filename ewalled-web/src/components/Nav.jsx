@@ -17,7 +17,7 @@ function Nav() {
         <Link to="/topup" className="nav-link">
           Topup
         </Link>
-        <Link to="login" className="nav-link">
+        <Link to="/login" className="nav-link">
           Sign Out
         </Link>
         <div className="vertical-line" />
