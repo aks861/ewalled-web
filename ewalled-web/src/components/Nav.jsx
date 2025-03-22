@@ -1,9 +1,11 @@
-import "../styles/Home.css";
+import "./Nav.css";
+import logo from "../assets/logo.png";
+import mode from "../assets/mode.png";
 
 function Nav() {
   return (
     <nav className="nav">
-      <img src="./assets/logo.png" height="40px" />
+      <img src={logo} height="40px" />
       <div className="nav-links">
         <a href="#" className="nav-link">
           Dashboard
@@ -19,7 +21,7 @@ function Nav() {
         </a>
         <div className="vertical-line" />
         <a href="#" className="nav-link">
-          <img src="./assets/mode.png" height="26px" width="26px" />
+          <img src={mode} height="26px" width="26px" />
         </a>
       </div>
     </nav>
