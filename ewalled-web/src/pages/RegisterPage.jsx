@@ -13,7 +13,9 @@ function RegisterPage() {
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <input type="text" placeholder="No HP" />
-          <button type="submit">Daftar</button>
+          <Link to="/login">
+            <button type="submit">Daftar</button>
+          </Link>
         </form>
         <p className="login-text">
           Sudah punya akun? <Link to="/login">Login di sini</Link>

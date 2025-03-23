@@ -11,7 +11,9 @@ function LoginPage() {
         <form className="login-form">
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
-          <button type="submit">Login</button>
+          <Link to="/">
+            <button type="submit">Login</button>
+          </Link>
         </form>
         <p className="register-text">
           Belum punya akun? <Link to="/register">Daftar di sini</Link>
