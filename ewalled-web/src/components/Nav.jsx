@@ -21,7 +21,7 @@ function Nav() {
           Sign Out
         </Link>
         <div className="vertical-line" />
-        <a href="#" className="nav-link">
+        <a href="#" className="nav-link" id="mode">
           <img src={mode} height="26px" width="26px" />
         </a>
       </div>
