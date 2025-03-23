@@ -1,0 +1,30 @@
+.dropdown-input {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown-label {
+  font-weight: bold;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #ededed;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.dropdown-value {
+  background-color: #fafbfd;
+  padding: 16px;
+  border-radius: 0px 12px 12px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.dropdown-icon:hover {
+  cursor: pointer;
+}
