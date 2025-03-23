@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav className="nav">
-      <img src={logo} height="40px" />
+      <img src={logo} height="40px" style={{ cursor: "pointer" }} />
       <div className="nav-links">
         <Link to="/" className="nav-link">
           Dashboard
