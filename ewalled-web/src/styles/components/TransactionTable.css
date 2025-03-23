@@ -14,7 +14,7 @@
 .table-controls input,
 .table-controls select {
   padding: 2px 12px;
-  border-radius: 6px;
+  border-radius: 10px;
   border: 1px solid #ccc;
   font-size: 16px;
   color: #737373;

@@ -14,17 +14,17 @@ function AccountInfoCard() {
         <div className="balance-actions">
           <div className="balance-action">
             <h3>Rp 10.000.000,00</h3>
-            <a href="#" className="view-button">
+            <button className="view-button">
               <img src={view} height="38" />
-            </a>
+            </button>
           </div>
           <div className="balance-action">
-            <a href="#" className="balance-button">
+            <button className="balance-button">
               <img src={plus} height="35" />
-            </a>
-            <a href="#" className="balance-button">
+            </button>
+            <button className="balance-button">
               <img src={transfer} height="35" />
-            </a>
+            </button>
           </div>
         </div>
       </div>

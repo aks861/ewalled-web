@@ -1,4 +1,4 @@
-import "./TransactionTable.css";
+import "../styles/components/TransactionTable.css";
 
 function TransactionTable() {
   const transactions = [

@@ -1,4 +1,4 @@
-import "./Nav.css";
+import "../styles/components/Nav.css";
 import logo from "../assets/logo.png";
 import mode from "../assets/mode.png";
 import { Link } from "react-router-dom";
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav className="nav">
-      <img src={logo} height="40px" />
+      <img src={logo} height="40px" style={{ cursor: "pointer" }} />
       <div className="nav-links">
         <Link to="/" className="nav-link">
           Dashboard
@@ -21,7 +21,7 @@ function Nav() {
           Sign Out
         </Link>
         <div className="vertical-line" />
-        <a href="#" className="nav-link">
+        <a href="#" className="nav-link" id="mode">
           <img src={mode} height="26px" width="26px" />
         </a>
       </div>

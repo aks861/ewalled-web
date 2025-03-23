@@ -27,3 +27,14 @@
   border-left: 1px solid #b3b3b3;
   height: 40px;
 }
+
+#mode {
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: none;
+}
+
+#mode:hover {
+  background-color: #f4f4f4;
+}
