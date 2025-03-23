@@ -1,10 +1,10 @@
-.login-container {
+.register-container {
   display: flex;
   height: 100vh;
   background-color: #f9f9f9;
 }
 
-.login-left {
+.register-left {
   flex: 1;
   padding: 60px 40px;
   display: flex;
@@ -19,13 +19,13 @@
   margin-bottom: 40px;
 }
 
-.login-form {
+.register-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.login-form input {
+.register-form input {
   padding: 16px;
   border: none;
   border-radius: 10px;
@@ -34,7 +34,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-.login-form button {
+.register-form button {
   background-color: #0061ff;
   color: white;
   border: none;
@@ -45,27 +45,27 @@
   cursor: pointer;
 }
 
-.login-form button:hover {
+.register-form button:hover {
   background-color: #004ad6;
 }
 
-.register-text {
+.login-text {
   margin-top: 20px;
   font-size: 14px;
 }
 
-.register-text Link {
+.login-text Link {
   color: #0061ff;
   text-decoration: none;
   font-weight: bold;
 }
 
-.login-right {
+.register-right {
   flex: 1;
   overflow: hidden;
 }
 
-.login-right img {
+.register-right img {
   width: 100%;
   height: 100%;
   object-fit: cover;

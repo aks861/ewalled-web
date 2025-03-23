@@ -163,6 +163,7 @@ a:hover {
   padding: 10px;
   border: none;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
 .view-button:hover {
@@ -175,6 +176,7 @@ a:hover {
   border-radius: 10px;
   padding: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .balance-button:hover {
