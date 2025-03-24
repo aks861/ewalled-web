@@ -1,4 +1,4 @@
-import dropdownImg from "../assets/dropdown.png";
+import dropdownImg from "../assets/dropdown.svg";
 import "../styles/components/DropdownInput.css";
 
 function DropdownInput({ label, value }) {
