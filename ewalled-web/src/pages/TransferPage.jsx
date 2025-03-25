@@ -14,7 +14,16 @@ function TransferPage() {
         <div className="transfer-container">
           <h1 className="transfer-heading">Transfer</h1>
           <div className="transfer-card">
-            <DropdownInput label="To" value="900782139 (Giz)" />
+            <DropdownInput
+              label="To"
+              options={[
+                "900782139 (Giz)",
+                "901239456 (Aditya)",
+                "908765432 (Sendy)",
+              ]}
+              defaultValue="900782139 (Giz)"
+              onChange={(value) => console.log("Selected:", value)}
+            />
             <AmountInput
               label="Amount"
               value="IDR 150.000,00"

@@ -18,7 +18,12 @@ function TopUpPage() {
               value="IDR 150.000,00"
               balance="IDR 10.000.000"
             />
-            <DropdownInput label="From" value="Credit Card" />
+            <DropdownInput
+              label="To"
+              options={["BYOND PAY", "Credit Card", "Debit Card"]}
+              defaultValue="BYOND PAY"
+              onChange={(value) => console.log("Selected:", value)}
+            />
             <NoteInput />
             <PrimaryButton text="Top Up" />
           </div>
