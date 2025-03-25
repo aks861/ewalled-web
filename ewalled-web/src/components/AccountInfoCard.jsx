@@ -1,8 +1,15 @@
 import view from "../assets/view.png";
 import plus from "../assets/plus.png";
 import transfer from "../assets/transfer.png";
+import { useState } from "react";
 
 function AccountInfoCard() {
+  const [showBalance, setShowBalance] = useState(true);
+
+  const toggleBalance = () => {
+    setShowBalance((prev) => !prev);
+  };
+
   return (
     <section className="account-info">
       <div className="account-no-card">
@@ -13,8 +20,8 @@ function AccountInfoCard() {
         <h4>Balance</h4>
         <div className="balance-actions">
           <div className="balance-action">
-            <h3>Rp 10.000.000,00</h3>
-            <button className="view-button">
+            <h3>{showBalance ? "Rp 10.000.000,00" : "Rp ••••••••"}</h3>
+            <button className="view-button" onClick={toggleBalance}>
               <img src={view} height="38" />
             </button>
           </div>
