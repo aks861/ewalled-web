@@ -111,19 +111,29 @@ function TransactionTable() {
         <button onClick={() => handlePageChange(1)} className="buttonFirst">
           First
         </button>
-        {Array.from({ length: totalPages }, (_, i) => (
-          <button
-            key={i + 1}
-            onClick={() => handlePageChange(i + 1)}
-            style={{
-              fontWeight: currentPage === i + 1 ? "bold" : "normal",
-              backgroundColor: currentPage === i + 1 ? "#0061ff" : "white",
-              color: currentPage === i + 1 ? "white" : "black",
-            }}
-          >
-            {i + 1}
-          </button>
-        ))}
+        {(() => {
+          const startPage = Math.max(1, currentPage - 1);
+          const endPage = Math.min(totalPages, startPage + 2);
+
+          const pageButtons = [];
+          for (let i = startPage; i <= endPage; i++) {
+            pageButtons.push(
+              <button
+                key={i}
+                onClick={() => handlePageChange(i)}
+                style={{
+                  fontWeight: currentPage === i ? "bold" : "normal",
+                  backgroundColor: currentPage === i ? "#0061ff" : "white",
+                  color: currentPage === i ? "white" : "black",
+                }}
+              >
+                {i}
+              </button>
+            );
+          }
+
+          return pageButtons;
+        })()}
         <button
           onClick={() =>
             handlePageChange(() => {
