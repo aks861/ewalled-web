@@ -2,6 +2,7 @@ import view from "../assets/view.png";
 import plus from "../assets/plus.png";
 import transfer from "../assets/transfer.png";
 import { useState } from "react";
+import "../styles//components/AccountInfoCard.css";
 
 function AccountInfoCard() {
   const [showBalance, setShowBalance] = useState(true);

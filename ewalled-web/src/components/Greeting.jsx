@@ -1,3 +1,5 @@
+import "../styles/components/Greeting.css";
+
 function Greeting({ avatar }) {
   return (
     <section className="greetings">

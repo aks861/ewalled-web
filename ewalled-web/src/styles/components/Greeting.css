@@ -1,0 +1,44 @@
+.greetings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greetings-text {
+  flex: 3;
+}
+
+.greetings h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.greetings p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.profile {
+  display: flex;
+  flex: 1;
+}
+
+.profile-name {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile img {
+  border-radius: 50%;
+  border: #0061ff 7px solid;
+  object-fit: cover;
+}
+.profile h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.profile p {
+  font-size: 16px;
+  font-weight: 400;
+}
