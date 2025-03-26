@@ -1,6 +1,5 @@
 import Nav from "../components/Nav";
 import "../styles/TransferPage.css";
-import dropdownImg from "../assets/dropdown.png";
 import DropdownInput from "../components/DropdownInput";
 import AmountInput from "../components/AmountInput";
 import NoteInput from "../components/NoteInput";

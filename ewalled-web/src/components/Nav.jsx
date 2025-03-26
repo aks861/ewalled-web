@@ -1,12 +1,18 @@
 import "../styles/components/Nav.css";
-import logo from "../assets/logo.png";
-import mode from "../assets/mode.png";
-import { Link } from "react-router-dom";
+import logo from "../assets/logo.svg";
+import mode from "../assets/mode.svg";
+import { Link, useNavigate } from "react-router-dom";
 
 function Nav() {
+  const navigate = useNavigate();
   return (
     <nav className="nav">
-      <img src={logo} height="40px" style={{ cursor: "pointer" }} />
+      <img
+        src={logo}
+        height="40px"
+        style={{ cursor: "pointer" }}
+        onClick={() => navigate("/")}
+      />
       <div className="nav-links">
         <Link to="/" className="nav-link">
           Dashboard

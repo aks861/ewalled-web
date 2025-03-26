@@ -1,4 +1,3 @@
-import dropdownImg from "../assets/dropdown.svg";
 import "../styles/components/DropdownInput.css";
 import { useState } from "react";
 

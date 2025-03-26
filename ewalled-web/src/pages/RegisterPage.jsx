@@ -1,5 +1,5 @@
 import registerBg from "../assets/loginregister.png";
-import logo from "../assets/logo-loginregister.png";
+import logo from "../assets/logo-loginregister.svg";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/RegisterPage.css";
 import { useState } from "react";
