@@ -15,9 +15,11 @@
 .table-controls select {
   padding: 2px 12px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 0px;
   font-size: 16px;
   color: #737373;
+  outline: none;
+  box-shadow: 2px 2px 5px #f6f6f6;
 }
 
 .select-controls-transactions {
@@ -76,4 +78,14 @@
   color: #ffffff;
   background-color: #0061ff;
   font-weight: bold;
+}
+
+.buttonFirst {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.buttonNext {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
