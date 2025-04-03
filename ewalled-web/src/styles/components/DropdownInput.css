@@ -14,15 +14,20 @@
   border-radius: 10px;
 }
 
-.dropdown-value {
+.dropdown-select {
   background-color: #fafbfd;
   padding: 16px;
-  border-radius: 0px 12px 12px 0px;
+  border-radius: 10px;
+  border: 0px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 600;
+}
+
+.dropdown-select:focus {
+  outline: none;
 }
 
 .dropdown-icon:hover {
